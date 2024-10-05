@@ -7,7 +7,6 @@ json.dump(params, open('request.json', 'w'), indent=4)
 url = 'https://api.ipums.org/extracts?collection=usa&version=2'
 
 # Get the API key from environment variable
-api_key ='59cba10d8a5da536fc06b59db6be3fccc50047d8ac579069242699cd'
 
 # Set the headers
 headers = {
