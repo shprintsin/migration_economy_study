@@ -1,0 +1,87 @@
+dataFormat: fixed_width
+dataStructure:
+  rectangular:
+    'on': P
+description: data for 2020, 2010, 2000
+samples:
+  us2020a: {}
+  us2010a: {}
+  us2000a: {}
+variables:
+  AGE: {}
+  SEX: {}
+  YEAR: {}
+  BPL: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  BPLD: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  YRIMMIG: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  YRSUSA1: {}
+  CITIZEN: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  YRNATUR: {}
+  BIRTHYR: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  SPEAKENG: {}
+  LINGISOL: {}  # Added linguistic isolation for better understanding of language barriers
+  EDUC: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  EDUCD: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  INCWAGE: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  INCTOT: {}  # Added total personal income
+  EMPSTAT: {}  # Added employment status for labor force analysis
+  UHRSWORK: {}  # Added usual hours worked for work intensity
+  OCC: {}  # Added occupation for occupational analysis
+  YRMARR: 
+    attachedCharacteristics:
+    - father
+    - mother
+    - spouse
+  STATEFIP: {}
+  COUNTYFIP: {}
+  PERWT: {}
+  RELATE: {}
+  RACE: {}
+  ANCESTR1: {}
+  ANCESTR2: {}
+  HHWT: {}
+  MARST: {}
+  NUMPREC: {}
+  COUNTYFIP: {}
+  PERNUM: {}
+  OCCSCORE: {}  # Added occupational income score for economic integration measure
+  POVERTY: {}  # Added poverty status for economic integration measure
+  NCHILD: {}  # Added number of children in the household
+  NCHLT5: {}  # Added number of children under age 5
+  GQ: {}  # Added group quarters status
+  REGION: {}  # Added census region for geographic control
+  METRO: {}  # Added metropolitan status for better location context
+  PCTMETRO: {}  # Added percent of population living in metro areas for better control over urban effects
+  DENSITY: {}  # Added population-weighted density for geographic analysis
